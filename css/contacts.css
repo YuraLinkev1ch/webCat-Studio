@@ -437,9 +437,9 @@ form textarea::placeholder{
 
 .form-right>label>img{
     position:absolute;
-    top:0;
+    top:-1px;
     right:-1px;
-    width:53px;
+    width:54px;
     height:53px;
 }
 
@@ -580,6 +580,7 @@ form button{
     flex-wrap: wrap;
     max-width: 1340px;
     height:79px;
+    margin:0 auto;
     margin-top:30px;
     padding:0 15px;
 }

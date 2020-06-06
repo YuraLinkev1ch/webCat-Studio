@@ -217,6 +217,7 @@ header {
 	header {
     position: fixed;
     width: 100%;
+    z-index: 2;
 }
 	.header__menu, .header__contact {display: none;}
 	.hamburger-menu {
@@ -434,6 +435,7 @@ form textarea::placeholder{
     height:37px;
     margin-bottom: 20px;
     cursor: pointer;
+    z-index:1;
 }
 
 .form-right>label>img{
@@ -442,6 +444,7 @@ form textarea::placeholder{
     right:-1px;
     width:54px;
     height:53px;
+    z-index:1;
 }
 
 textarea{

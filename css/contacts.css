@@ -416,21 +416,31 @@ form textarea::placeholder{
 .form-left>input{
     width: 100%;
     height:50px;
-    padding: 0;
     margin:0 ;
     border: 1px solid rgb(70, 70, 70);
     margin-bottom: 20px;
 }
 
-form input,
-form select,
-form textarea,
-form label{
+.form-left>input,
+.form-left>select,
+.form-right>textarea,
+.form-right>label{
     box-sizing: border-box;
     background-color: black;
     color:white;
     border: 1px solid rgb(70, 70, 70);
-    padding-left:30px !important;
+}
+
+.form-left>input,
+.form-left>select{
+    padding-top:0;
+    padding-left:30px;
+}
+
+.form-right>textarea,
+.form-right>label{
+    padding-left:30px;
+    padding-top:15px;
 }
 
 .form-left>select{
@@ -448,7 +458,6 @@ form label{
     position:relative;
     height: 50px;
     margin-bottom:20px;
-    padding:0;
     cursor: pointer;
 }    
 
@@ -462,13 +471,11 @@ form label{
 
 textarea{
     height: 123px;
-    padding:0;
 }
 
 .form-right label,
 .form-right textarea{
     width: 100%;
-    padding-top:15px;
 }
 
 button{

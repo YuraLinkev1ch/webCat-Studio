@@ -429,11 +429,11 @@ form textarea::placeholder{
     background-color: black;
     color:white;
     border: 1px solid rgb(70, 70, 70);
+    padding: 0;
 }
 
 .form-left>input,
 .form-left>select{
-    padding-top:0;
     padding-left:30px;
 }
 

@@ -1,21 +1,25 @@
-
-
 body{
     font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
     margin:0;
-    padding:0;
+
 }
 
 /*header-start*/
 
-
-
-/*/////*/
 .container {
 	max-width: 1160px;
     width: 100%;
     margin: 0 auto;
+    /*scroll width*/
+    padding-left:17px;
 }
+
+@media (max-width:1198px) { 
+    .container{
+        padding-left:0;
+    }
+}
+
 .responsive {
     display: block;
     max-width: 100%;
@@ -303,6 +307,7 @@ header {
 
 .contacts-item{
     display:flex;
+    flex-basis:190px;
     flex-direction: column;
     align-items: center;
     margin-bottom:20px;
@@ -539,12 +544,12 @@ form button{
         .form-left>select{
             margin-bottom:20px;
         }
-/*!/*/
+
         .form-right>label,
         .form-right>textarea{
             width: 100%;
         }
-/*!/*/
+
         .button-container{
             display: flex;
             justify-content: center;
@@ -563,7 +568,6 @@ form button{
     justify-content: space-evenly;
     flex-wrap: wrap;
     max-width: 1340px;
-    height:79px;
     margin:0 auto;
     margin-top:30px;
     padding:0 15px;
@@ -575,8 +579,8 @@ form button{
 
 .footer-logo>img{
     margin-bottom: 20px;
-    width:158px;
-    height:49px;
+    width:210px;
+    height:72px;
 }
 
 footer h2{
@@ -592,6 +596,7 @@ footer a{
 
 .footer-logo p{
     font-size:12px;
+    text-align: center;
     margin:0;
 }
 
@@ -604,12 +609,8 @@ footer li{
 }
 
 .footer-services{
-    width:400px;
+    width:200px;
     height:220px;
-}
-
-.footer-services>ul{
-    column-count:2;
 }
 
 .footer-address{
@@ -643,4 +644,12 @@ footer li{
     content: "\f0e0";
 }
 
+@media screen and (max-width: 456px) {
+
+    .footer-logo>img{
+        max-width:335px;
+        width:100%;
+    }
+
+    }
 /*footer-end*/

@@ -652,6 +652,14 @@ footer li{
     }
 /*footer-end*/
 
+header{
+    position: relative;
+    background-color: transparent;
+    z-index: 4;
+}
+
 canvas{
-    background-color: red !important ;
+    position: fixed;
+    height: 100vh;
+    z-index: 3;
 }

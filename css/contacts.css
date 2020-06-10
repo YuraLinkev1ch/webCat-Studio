@@ -655,11 +655,11 @@ footer li{
 header{
     position: relative;
     background-color: transparent;
-    z-index: 4;
+    z-index: 20;
 }
 
 canvas{
     position: fixed;
     height: 100vh;
-    z-index: 3;
+    z-index: 10;
 }

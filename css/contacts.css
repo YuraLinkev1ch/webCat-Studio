@@ -626,11 +626,9 @@ footer li{
 .footer-contacts>a:nth-child(2)::before{
     content: "\f095";
 }
-
 .footer-contacts>a:nth-child(3)::before{
     content: "\f409";
 }
-
 .footer-contacts>a:nth-child(4)::before{
     content: "\f232";
 }
@@ -653,3 +651,7 @@ footer li{
 
     }
 /*footer-end*/
+
+canvas{
+    background-color: red !important ;
+}
